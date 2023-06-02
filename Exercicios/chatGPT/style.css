@@ -1,0 +1,154 @@
+/* Reset CSS */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* Fontes */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+
+/* Estilos do corpo */
+body {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	color: #444;
+	background-image: url('bg-pizza.jpg');
+	background-size: cover;
+	background-color: #4e6898;
+	line-height: 1.5;
+}
+
+/* Estilos do cabeçalho */
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px 50px;
+	background-color: #fff;
+	box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 999;
+}
+
+.logo img {
+	height: 80px;
+}
+
+nav ul {
+	display: flex;
+	list-style: none;
+}
+
+nav ul li {
+	margin-left: 20px;
+}
+
+nav ul li a {
+	color: #444;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: 500;
+	padding: 10px;
+	transition: all 0.3s ease;
+}
+
+nav ul li a:hover {
+	background-color: #f8f8f8;
+	border-radius: 5px;
+}
+
+/* Estilos da seção Home */
+#home {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 90vh;
+	color: #fff;
+	text-align: center;
+}
+
+#home h1 {
+	font-size: 4rem;
+	margin-bottom: 20px;
+	text-shadow: 2px 2px #000;
+}
+
+#home p {
+	font-size: 1.5rem;
+	margin-bottom: 40px;
+	text-shadow: 2px 2px #000;
+}
+
+button {
+	background-color: #ffba00;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	font-size: 1.5rem;
+	padding: 10px 40px;
+	cursor: pointer;
+	box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+	transition: all 0.3s ease;
+}
+
+button:hover {
+	background-color: #ffc700;
+}
+
+/* Estilos da seção Cardápio */
+#cardapio {
+	padding: 100px 50px;
+	background-color: #fff;
+}
+
+#cardapio h2 {
+	font-size: 3rem;
+	margin-bottom: 50px;
+	text-align: center;
+}
+
+.menu {
+	margin-bottom: 50px;
+}
+
+.menu h3 {
+	font-size: 2rem;
+	margin-bottom: 20px;
+}
+
+ul {
+	list-style: none;
+}
+
+ul li {
+	margin-bottom: 20px;
+	display: flex;
+	align-items: center;
+}
+
+ul li h4 {
+	font-size: 1.5rem;
+	margin-bottom: 10px;
+}
+
+ul li p {
+	font-size: 1.2rem;
+	margin-bottom: 10px;
+	flex: 1;
+}
+
+ul li span {
+	font-size: 1.5rem;
+	font-weight: 500;
+	color: #ffba00;
+	margin-left: 20px;
+}
+
+.menu-item-image {
+	margin-right: 20px;
+}
